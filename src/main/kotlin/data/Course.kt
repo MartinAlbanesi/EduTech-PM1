@@ -3,7 +3,8 @@
 data class Course(
     val id: Long,
     val name: String,
-    val date: String,
+    val startDate: String,
+    val endDate: String,
     val time: String,
     val location: String,
     val instructor: String,
